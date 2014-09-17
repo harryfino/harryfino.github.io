@@ -1,0 +1,91 @@
+html {
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	color: #3b3b3b;
+	font: 16px/1.2 "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	min-width: 850px;
+	min-height: 600px;
+}
+
+.section {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #000;
+	background: -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3));
+	background:    -moz-radial-gradient(50% 50%, circle closest-corner, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3));
+	background:         radial-gradient(2048px circle at 50% 50%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3));
+}
+
+.section:last-child {
+	border-bottom: 0;
+}
+
+.section-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.section-image-couch {
+	background: url(../img/couch.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.section-image-volleyball {
+	background: url(../img/volleyball.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.section-content {
+	position: absolute;
+	top: 20%;
+	right: 8%;
+	text-align: right;
+}
+
+.section-content-tagline {
+	font-size: 42px;
+}
+
+.section-content-details {
+	padding: 0 60px 0 0;
+	font-size: 28px;
+	color: #f00;
+}
+
+.section-content-link {
+	color: #3b3b3b;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.section-content-link:hover {
+	color: #f00;
+}
+
+.icon {
+	display: inline-block;
+	margin: 20px 30px;
+	font-size: 42px;
+	text-shadow: 0 2px #fff;
+}
