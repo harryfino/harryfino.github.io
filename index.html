@@ -18,6 +18,16 @@
 		<script src="js/vendor/modernizr.js"></script>
 		<link href="css/icomoon.css" rel="stylesheet" />
 		<link href="css/harryfino.css" rel="stylesheet" />
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-9279355-1', 'auto');
+			ga('send', 'pageview');		
+		</script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -28,26 +38,19 @@
 					<p class="section-content-tagline">Harry Finocchiaro, Jr</p>
 					<p class="section-content-details">web developer</p>
 
-					<a class="section-content-link" title="LinkedIn" href="http://www.linkedin.com/in/harryfinocchiaro"><i class="icon icon-linkedin"></i></a>
-					<a class="section-content-link" title="Github" href="http://www.github.com/harryfino"><i class="icon icon-github"></i></a>
-					<a class="section-content-link" title="Dribbble" href="http://www.dribbble.com/harryfino"><i class="icon icon-dribbble"></i></a>
-					<a class="section-content-link" title="Twitter" href="http://www.twitter.com/harryfino"><i class="icon icon-twitter"></i></a>
+					<a class="section-content-link js-trackevent" title="LinkedIn" href="http://www.linkedin.com/in/harryfinocchiaro"><i class="icon icon-linkedin"></i></a>
+					<a class="section-content-link js-trackevent" title="Github" href="http://www.github.com/harryfino"><i class="icon icon-github"></i></a>
+					<a class="section-content-link js-trackevent" title="Dribbble" href="http://www.dribbble.com/harryfino"><i class="icon icon-dribbble"></i></a>
+					<a class="section-content-link js-trackevent" title="Twitter" href="http://www.twitter.com/harryfino"><i class="icon icon-twitter"></i></a>
 				</div>
 			</div>
 		</div>
 		
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery-2.0.0.min.js"><\/script>')</script>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
 		<script src="js/harryfino.js"></script>
-
+		
 		<!-- IcoMoon script for old browsers -->
 		<!--[if IE 7]><script src="js/icomoon.js"></script><![endif]-->
-
-        <script>
-            var _gaq=[['_setAccount','UA-9279355-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
 	</body>
 </html>
