@@ -28,14 +28,9 @@ p {
 	position: relative;
 	height: 100%;
 	overflow: hidden;
-	border-bottom: 1px solid #000;
 	background: -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3));
 	background:    -moz-radial-gradient(50% 50%, circle closest-corner, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3));
 	background:         radial-gradient(2048px circle at 50% 50%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3));
-}
-
-.section:last-child {
-	border-bottom: 0;
 }
 
 .section-image {
@@ -51,11 +46,6 @@ p {
 	background-size: cover;
 }
 
-.section-image-volleyball {
-	background: url(../img/volleyball.png) no-repeat 50% 50%;
-	background-size: cover;
-}
-
 .section-content {
 	position: absolute;
 	top: 20%;
@@ -68,9 +58,9 @@ p {
 }
 
 .section-content-details {
-	padding: 0 60px 0 0;
 	font-size: 28px;
 	color: #f00;
+	text-align: center;
 }
 
 .section-content-link {
